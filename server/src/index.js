@@ -1,0 +1,4 @@
+import 'dotenv/config';
+import app from './app.js';
+import { PORT } from './config.js';
+app.listen(PORT,()=>console.log(`Hiral Jewels API running at http://localhost:${PORT}`));
